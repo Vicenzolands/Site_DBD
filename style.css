@@ -9,6 +9,10 @@ body {
   font-family: Arial, sans-serif;
 }
 
+header {
+  background-repeat: no-repeat;
+}
+
 .bg-dark-d {
   background-color: var(--darkColor);
 }
