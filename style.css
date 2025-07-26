@@ -7,10 +7,18 @@
 
 body {
   font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-  background-repeat: no-repeat;
+  background-position: center center !important;
+}
+
+@media (max-width: 768px) {
+  header {
+    background-position: 50% 20% !important;
+  }
 }
 
 .bg-dark-d {
@@ -44,4 +52,21 @@ header {
   width: 100%;
   object-fit: cover;
   display: block;
+}
+
+/* Ajustes para mobile */
+@media (max-width: 768px) {
+  .card {
+    height: 200px;
+  }
+
+  header h1 {
+    font-size: 2rem !important;
+    padding: 0 1rem;
+  }
+
+  /* Remove bottom margin from last card in mobile */
+  .row > [class*="col-"]:last-child {
+    margin-bottom: 0 !important;
+  }
 }
