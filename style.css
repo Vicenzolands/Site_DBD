@@ -9,6 +9,10 @@ body {
   font-family: Arial, sans-serif;
 }
 
+.bg-dark-d {
+  background-color: var(--darkColor);
+}
+
 .font-bebas {
   font-family: "Bebas Neue", sans-serif;
 }
