@@ -4,12 +4,12 @@ const personagens = [
   {
     id: 1,
     nome: "Caçador",
-    imagem: "/image/killers/Trapper.webp",
+    imagem: "../image/killers/Trapper.webp",
     itens: [
       { nome: "Mola ensanguentada", imagem: "../image/addons/molaEnsanguentada.webp", qualidade: "bom" },
       {
         nome: "Pedra Iridescente",
-        imagem: "/image/addons/iridescentStone.webp",
+        imagem: "../image/addons/iridescentStone.webp",
         qualidade: "bom",
       },
       { nome: "Armadilha de tensão", imagem: "../image/addons/IconAddon_tensionSpring.webp", qualidade: "mediano" },
