@@ -1,5 +1,4 @@
 // script-addons.js
-
 const personagens = [
   {
     id: 1,
