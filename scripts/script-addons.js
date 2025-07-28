@@ -135,6 +135,97 @@ const personagens = [
       { nome: "'A Serpente' - Fuligem", imagem: "../image/addons/Wraith/serpenteFuligem.webp", qualidade: "ruim" },
     ],
   },
+  {
+    id: 3,
+    nome: "Caipira",
+    imagem: "../image/killers/TheHillbilly.webp",
+    itens: [
+      { nome: "Marcas Iridescentes", imagem: "../image/addons/TheHillbilly/marcasIridescentes.webp", qualidade: "bom" },
+      { nome: "Carburador Tunado", imagem: "../image/addons/TheHillbilly/caburadorTunado.webp", qualidade: "mediano" },
+      {
+        nome: "Pontas Pontiagudas",
+        imagem: "../image/addons/TheHillbilly/botasPontiagudas.webp",
+        qualidade: "bom",
+      },
+      {
+        nome: "Correntes LoPro",
+        imagem: "../image/addons/TheHillbilly/correntesLoPro.webp",
+        qualidade: "bom",
+      },
+      {
+        nome: "Pantufas Nojentas",
+        imagem: "../image/addons/TheHillbilly/pantufasNojentas.webp",
+        qualidade: "mediano",
+      },
+      {
+        nome: "Silenciador de Ponta",
+        imagem: "../image/addons/TheHillbilly/silenciadosPonta.webp",
+        qualidade: "mediano",
+      },
+      {
+        nome: "Combinação dos Thompsons",
+        imagem: "../image/addons/TheHillbilly/combinacaoDosThompsons.webp",
+        qualidade: "bom",
+      },
+      {
+        nome: "Motor Rustico",
+        imagem: "../image/addons/TheHillbilly/motorRustico.webp",
+        qualidade: "mediano",
+      },
+      {
+        nome: "Correntes com Baixo Recuo",
+        imagem: "../image/addons/TheHillbilly/correntesComBaixoRecuo.webp",
+        qualidade: "ruim",
+      },
+      {
+        nome: "Botas do Papai",
+        imagem: "../image/addons/TheHillbilly/botasDoPapai.webp",
+        qualidade: "bom",
+      },
+      { nome: "Correntes Sujas", imagem: "../image/addons/TheHillbilly/correntesSujas.webp", qualidade: "ruim" },
+      {
+        nome: "Estojo Termico",
+        imagem: "../image/addons/TheHillbilly/estojoTermico.webp",
+        qualidade: "mediano",
+      },
+      {
+        nome: "Óleo de motor sem marca",
+        imagem: "../image/addons/TheHillbilly/oleoDeMotorSemMarca.webp",
+        qualidade: "mediano",
+      },
+      {
+        nome: "Parafuso de marcha lenta",
+        imagem: "../image/addons/TheHillbilly/parafusoMarchaLenta.webp",
+        qualidade: "mediano",
+      },
+      {
+        nome: "Acelerador Lumbrificado",
+        imagem: "../image/addons/TheHillbilly/aceleradorLumbrificado.webp",
+        qualidade: "bom",
+      },
+      {
+        nome: "Ingestão Obatruida",
+        imagem: "../image/addons/TheHillbilly/ingestaoObstruida.webp",
+        qualidade: "mediano",
+      },
+      {
+        nome: "Botas com biqueira de aço",
+        imagem: "../image/addons/TheHillbilly/botasComBiqueiraAco.webp",
+        qualidade: "ruim",
+      },
+      {
+        nome: "Filtro de ar abandonado",
+        imagem: "../image/addons/TheHillbilly/filtroDeArAbandonado.webp",
+        qualidade: "mediano",
+      },
+      {
+        nome: "Bomba de pressão quebrada",
+        imagem: "../image/addons/TheHillbilly/bombaDePressaoQuebrada.webp",
+        qualidade: "ruim",
+      },
+      { nome: "Contra Peso", imagem: "../image/addons/TheHillbilly/contraPeso.webp", qualidade: "ruim" },
+    ],
+  },
   // Adicione mais personagens aqui conforme necessário
 ];
 
