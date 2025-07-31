@@ -9,7 +9,7 @@ const personagens = [
       {
         nome: "Pedra Iridescente",
         imagem: "../image/addons/Trapper/iridescentStone.webp",
-        qualidade: "bom",
+        qualidade: "muito-bom",
       },
       {
         nome: "Armadilha de tensão",
@@ -17,8 +17,8 @@ const personagens = [
         qualidade: "mediano",
       },
       { nome: "Mola oleosa", imagem: "../image/addons/Trapper/IconAddon_oilyCoil.webp", qualidade: "mediano" },
-      { nome: "Pedra de amolar", imagem: "../image/addons/Trapper/IconAddon_honingStone.webp", qualidade: "bom" },
-      { nome: "Saco do caçador", imagem: "../image/addons/Trapper/IconAddon_trapperSack.webp", qualidade: "bom" },
+      { nome: "Pedra de amolar", imagem: "../image/addons/Trapper/IconAddon_honingStone.webp", qualidade: "muito-bom" },
+      { nome: "Saco do caçador", imagem: "../image/addons/Trapper/IconAddon_trapperSack.webp", qualidade: "muito-bom" },
       {
         nome: "Ferramenta de fixação",
         imagem: "../image/addons/Trapper/IconAddon_fasteningTools.webp",
@@ -88,9 +88,9 @@ const personagens = [
       {
         nome: "'Caça Rápida' - Sangue",
         imagem: "../image/addons/Wraith/caçaRapidaSangue.webp",
-        qualidade: "bom",
+        qualidade: "muito-bom",
       },
-      { nome: "'Vendaval' - Sangue", imagem: "../image/addons/Wraith/vendavalSangue.webp", qualidade: "bom" },
+      { nome: "'Vendaval' - Sangue", imagem: "../image/addons/Wraith/vendavalSangue.webp", qualidade: "muito-bom" },
       {
         nome: "'Guerreiro Cego' - Branco",
         imagem: "../image/addons/Wraith/guerreiroCegoBranco.webp",
@@ -102,11 +102,11 @@ const personagens = [
         imagem: "../image/addons/Wraith/dançaSombrasBranco.webp",
         qualidade: "bom",
       },
-      { nome: "'Caça Rápida' - Branco", imagem: "../image/addons/Wraith/caçaRapidaWhite.webp", qualidade: "bom" },
+      { nome: "'Caça Rápida' - Branco", imagem: "../image/addons/Wraith/caçaRapidaWhite.webp", qualidade: "muito-bom" },
       {
         nome: "'Vendaval' - Branco",
         imagem: "../image/addons/Wraith/vendavalBranco.webp",
-        qualidade: "bom",
+        qualidade: "muito-bom",
       },
       {
         nome: "'Guerreiro Cego' - Lama",
@@ -140,12 +140,16 @@ const personagens = [
     nome: "Caipira",
     imagem: "../image/killers/TheHillbilly.webp",
     itens: [
-      { nome: "Marcas Iridescentes", imagem: "../image/addons/TheHillbilly/marcasIridescentes.webp", qualidade: "bom" },
+      {
+        nome: "Marcas Iridescentes",
+        imagem: "../image/addons/TheHillbilly/marcasIridescentes.webp",
+        qualidade: "muito-bom",
+      },
       { nome: "Carburador Tunado", imagem: "../image/addons/TheHillbilly/caburadorTunado.webp", qualidade: "mediano" },
       {
-        nome: "Pontas Pontiagudas",
+        nome: "Botas Pontiagudas",
         imagem: "../image/addons/TheHillbilly/botasPontiagudas.webp",
-        qualidade: "bom",
+        qualidade: "muito-bom",
       },
       {
         nome: "Correntes LoPro",
@@ -226,10 +230,104 @@ const personagens = [
       { nome: "Contra Peso", imagem: "../image/addons/TheHillbilly/contraPeso.webp", qualidade: "ruim" },
     ],
   },
+  {
+    id: 4,
+    nome: "Enfermeira",
+    imagem: "../image/killers/nurse.webp",
+    itens: [
+      {
+        nome: "Marcador de Página Rasgado",
+        imagem: "../image/addons/Nurse/marcadoPaginaRasgado.webp",
+        qualidade: "muito-bom",
+      },
+      { nome: "Caixa de Fósforos", imagem: "../image/addons/Nurse/caixaFosforos.webp", qualidade: "ruim" },
+      {
+        nome: "Último suspiro do 'Homem mau'",
+        imagem: "../image/addons/Nurse/ultimoSuspiroHomemMau.webp",
+        qualidade: "bom",
+      },
+      {
+        nome: "Último suspiro de Kavavagh",
+        imagem: "../image/addons/Nurse/ultimoSuspiroKavanagh.webp",
+        qualidade: "mediano",
+      },
+      {
+        nome: "Último suspiro de Jenner",
+        imagem: "../image/addons/Nurse/ultimoSuspiroJenner.webp",
+        qualidade: "muito-bom",
+      },
+      {
+        nome: "Último Sopro de Campbell",
+        imagem: "../image/addons/Nurse/ultimoSuspiroCampbell.webp",
+        qualidade: "bom",
+      },
+      {
+        nome: "Suspiro Ansioso",
+        imagem: "../image/addons/Nurse/suspiroAnsioso.webp",
+        qualidade: "ruim",
+      },
+      {
+        nome: "Respiração Ofegante",
+        imagem: "../image/addons/Nurse/respiracaoOfegante.webp",
+        qualidade: "muito-bom",
+      },
+      {
+        nome: "Respiração Espasmódica",
+        imagem: "../image/addons/Nurse/respiracaoEspasmodica.webp",
+        qualidade: "ruim",
+      },
+      {
+        nome: "Respiração Atáxica",
+        imagem: "../image/addons/Nurse/respiracaoAtaxica.webp",
+        qualidade: "mediano",
+      },
+      { nome: "Arfada Frágil", imagem: "../image/addons/Nurse/arfadaFragil.webp", qualidade: "muito-bom" },
+      {
+        nome: "Tesouro do Garoto Catatônico",
+        imagem: "../image/addons/Nurse/tesouroGarotoCatatonico.webp",
+        qualidade: "bom",
+      },
+      {
+        nome: "Relógio de Bolso",
+        imagem: "../image/addons/Nurse/relogioBolso.webp",
+        qualidade: "ruim",
+      },
+      {
+        nome: "Lembrança do Homem Mau",
+        imagem: "../image/addons/Nurse/lembrancaHomemMau.webp",
+        qualidade: "mediano",
+      },
+      {
+        nome: "Cinto Escuro",
+        imagem: "../image/addons/Nurse/cintoEscuro.webp",
+        qualidade: "mediano",
+      },
+      {
+        nome: "Bracelete sem Brilho",
+        imagem: "../image/addons/Nurse/braceleteSemBrilho.webp",
+        qualidade: "ruim",
+      },
+      {
+        nome: "Pente Fino Branco",
+        imagem: "../image/addons/Nurse/penteFinoBranco.webp",
+        qualidade: "ruim",
+      },
+      {
+        nome: "Flanela Xadrez",
+        imagem: "../image/addons/Nurse/flanelaXadres.webp",
+        qualidade: "ruim",
+      },
+      {
+        nome: "Colher de Metal",
+        imagem: "../image/addons/Nurse/colherMetal.webp",
+        qualidade: "mediano",
+      },
+      { nome: "Cavalo de Madeira", imagem: "../image/addons/Nurse/cavaloMadeira.webp", qualidade: "mediano" },
+    ],
+  },
   // Adicione mais personagens aqui conforme necessário
 ];
 
-// Função para carregar os personagens na página
 function carregarPersonagens() {
   const grid = document.getElementById("personagens-grid");
 
@@ -265,40 +363,73 @@ function abrirModalItens(personagemId) {
   const modalItens = document.getElementById("modalItens");
   modalItens.innerHTML = "";
 
-  personagem.itens.forEach((item) => {
-    const itemDiv = document.createElement("div");
-    itemDiv.className = `item-card item-${item.qualidade}`;
+  const ordemQualidade = {
+    "muito-bom": 1,
+    bom: 2,
+    mediano: 3,
+    ruim: 4,
+  };
 
-    // Determina o texto de qualidade
-    let qualidadeTexto;
-    switch (item.qualidade) {
-      case "bom":
-        qualidadeTexto = "Item Bom";
-        break;
-      case "mediano":
-        qualidadeTexto = "Item Mediano";
-        break;
-      case "ruim":
-        qualidadeTexto = "Item Ruim";
-        break;
-      default:
-        qualidadeTexto = "Item";
+  const itensOrdenados = [...personagem.itens].sort((a, b) => {
+    return ordemQualidade[a.qualidade] - ordemQualidade[b.qualidade];
+  });
+
+  const qualidades = [
+    { id: "muito-bom", nome: "Muito Bons" },
+    { id: "bom", nome: "Bons" },
+    { id: "mediano", nome: "Medianos" },
+    { id: "ruim", nome: "Ruins" },
+  ];
+
+  qualidades.forEach((qualidade) => {
+    const itensDaQualidade = itensOrdenados.filter((item) => item.qualidade === qualidade.id);
+
+    if (itensDaQualidade.length > 0) {
+      // Adicionar título da seção
+      const tituloSecao = document.createElement("h5");
+      tituloSecao.className = "secao-qualidade";
+      tituloSecao.textContent = qualidade.nome;
+      modalItens.appendChild(tituloSecao);
+
+      // Adicionar itens da seção
+      itensDaQualidade.forEach((item) => {
+        const itemDiv = document.createElement("div");
+        itemDiv.className = `item-card item-${item.qualidade}`;
+
+        // Determina o texto de qualidade
+        let qualidadeTexto;
+        switch (item.qualidade) {
+          case "muito-bom":
+            qualidadeTexto = "Item Muito Bom";
+            break;
+          case "bom":
+            qualidadeTexto = "Item Bom";
+            break;
+          case "mediano":
+            qualidadeTexto = "Item Mediano";
+            break;
+          case "ruim":
+            qualidadeTexto = "Item Ruim";
+            break;
+          default:
+            qualidadeTexto = "Item";
+        }
+
+        itemDiv.innerHTML = `
+          <img src="${item.imagem}" alt="${item.nome}" class="item-img">
+          <div class="item-info">
+            <h6>${item.nome}</h6>
+            <small>${qualidadeTexto}</small>
+          </div>
+        `;
+
+        modalItens.appendChild(itemDiv);
+      });
     }
-
-    itemDiv.innerHTML = `
-    <img src="${item.imagem}" alt="${item.nome}" class="item-img">
-    <div class="item-info">
-      <h6>${item.nome}</h6>
-      <small>${qualidadeTexto}</small>
-    </div>
-  `;
-
-    modalItens.appendChild(itemDiv);
   });
 
   const modal = new bootstrap.Modal(document.getElementById("itensModal"));
   modal.show();
 }
 
-// Carrega os personagens quando a página estiver pronta
 document.addEventListener("DOMContentLoaded", carregarPersonagens);
