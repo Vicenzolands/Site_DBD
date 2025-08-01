@@ -6,10 +6,63 @@
 }
 
 body {
-  background-color: #1a1919;
+  background-color: var(--darkColor);
   min-height: 100vh;
+  color: var(--whiteColor);
 }
 
-.border-red-custom:hover {
+.navbar {
+  background-color: var(--darkColor) !important;
+}
+
+.card {
+  background-color: var(--darkRedColor);
+  color: var(--whiteColor);
+  height: 100%;
+  border: 1px solid var(--redColor);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-small {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border: 2px solid var(--redColor);
+  border-radius: 5px;
+}
+
+.images-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.card-title {
+  color: var(--redColor);
+  font-weight: bold;
+  border-bottom: 1px solid var(--redColor);
+  padding-bottom: 10px;
+}
+
+.card-text {
+  margin-bottom: 15px;
+}
+
+.custom-border {
   border-color: var(--redColor) !important;
+}
+
+.perk-list {
+  padding-left: 1.2rem;
+}
+
+.perk-list li {
+  margin-bottom: 8px;
 }
