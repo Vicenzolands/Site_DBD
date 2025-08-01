@@ -325,6 +325,101 @@ const personagens = [
       { nome: "Cavalo de Madeira", imagem: "../image/addons/Nurse/cavaloMadeira.webp", qualidade: "mediano" },
     ],
   },
+  {
+    id: 5,
+    nome: "Vulto",
+    imagem: "../image/killers/Myers.webp",
+    itens: [
+      {
+        nome: "Tufo de Cabelo Perfumado",
+        imagem: "../image/addons/Myers/tufoCbeloPerfumado.webp",
+        qualidade: "bom",
+      },
+      { nome: "Lápide de Judith", imagem: "../image/addons/Myers/lapideJudith.webp", qualidade: "mediano" },
+      {
+        nome: "Mecha de Cabelo",
+        imagem: "../image/addons/Myers/mechaCabelo.webp",
+        qualidade: "bom",
+      },
+      {
+        nome: "Espelho Arranhado",
+        imagem: "../image/addons/Myers/espelhoArranhado.webp",
+        qualidade: "ruim",
+      },
+      {
+        nome: "Pedaço de Lápide",
+        imagem: "../image/addons/Myers/pedacoLapide.webp",
+        qualidade: "muito-bom",
+      },
+      {
+        nome: "Espelho de Maquiagem",
+        imagem: "../image/addons/Myers/espelhoMaquiagem.webp",
+        qualidade: "mediano",
+      },
+      {
+        nome: "Laço de Cabelo",
+        imagem: "../image/addons/Myers/lacoCabelo.webp",
+        qualidade: "bom",
+      },
+      {
+        nome: "Memorial de J. Myers",
+        imagem: "../image/addons/Myers/memorialMyers.webp",
+        qualidade: "bom",
+      },
+      {
+        nome: "Caixa de Bijuterias",
+        imagem: "../image/addons/Myers/caixaBijuterias.webp",
+        qualidade: "ruim",
+      },
+      {
+        nome: "Diário da Judith",
+        imagem: "../image/addons/Myers/diaioJudith.webp",
+        qualidade: "mediano",
+      },
+      { nome: "Caco de Espelho", imagem: "../image/addons/Myers/cacoEspelho.webp", qualidade: "mediano" },
+      {
+        nome: "Coelho Morto",
+        imagem: "../image/addons/Myers/coelhoMorto.webp",
+        qualidade: "bom",
+      },
+      {
+        nome: "Fragmento de Vidro",
+        imagem: "../image/addons/Myers/fragmentoVidro.webp",
+        qualidade: "ruim",
+      },
+      {
+        nome: "Escova de Cabelo",
+        imagem: "../image/addons/Myers/escovaCabelo.webp",
+        qualidade: "ruim",
+      },
+      {
+        nome: "Bijuteria",
+        imagem: "../image/addons/Myers/bijuterias.webp",
+        qualidade: "ruim",
+      },
+      {
+        nome: "Fragmento Refletivo",
+        imagem: "../image/addons/Myers/fragmentoRefletivo.webp",
+        qualidade: "mediano",
+      },
+      {
+        nome: "Flor Memorial",
+        imagem: "../image/addons/Myers/florMemorial.webp",
+        qualidade: "bom",
+      },
+      {
+        nome: "Fio Loiro",
+        imagem: "../image/addons/Myers/fioLoiro.webp",
+        qualidade: "ruim",
+      },
+      {
+        nome: "Bilhete do Namorado",
+        imagem: "../image/addons/Myers/bilheteNamorado.webp",
+        qualidade: "ruim",
+      },
+      { nome: "Brincos Cafonas", imagem: "../image/addons/Myers/brincosCafonas.webp", qualidade: "ruim" },
+    ],
+  },
   // Adicione mais personagens aqui conforme necessário
 ];
 
