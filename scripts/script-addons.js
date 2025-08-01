@@ -420,6 +420,101 @@ const personagens = [
       { nome: "Brincos Cafonas", imagem: "../image/addons/Myers/brincosCafonas.webp", qualidade: "ruim" },
     ],
   },
+  {
+    id: 6,
+    nome: "Bruxa",
+    imagem: "../image/killers/hag.webp",
+    itens: [
+      {
+        nome: "Trapo Cor de Hortelã",
+        imagem: "../image/addons/Hag/trapoCorHortela.webp",
+        qualidade: "muito-bom",
+      },
+      { nome: "Sapato Encharcado", imagem: "../image/addons/Hag/sapatoEncharcado.webp", qualidade: "ruim" },
+      {
+        nome: "Orelha Desfigurada",
+        imagem: "../image/addons/Hag/orelhaDesfigurada.webp",
+        qualidade: "ruim",
+      },
+      {
+        nome: "Coração da Avó",
+        imagem: "../image/addons/Hag/coracaoAvo.webp",
+        qualidade: "ruim",
+      },
+      {
+        nome: "Algemas Enferrujadas",
+        imagem: "../image/addons/Hag/algemasEnferrujadas.webp",
+        qualidade: "muito-bom",
+      },
+      {
+        nome: "Mão Cicatrizada",
+        imagem: "../image/addons/Hag/maoCicatrizada.webp",
+        qualidade: "ruim",
+      },
+      {
+        nome: "Lama Ensanguentada",
+        imagem: "../image/addons/Hag/lamaEnsanguentada.webp",
+        qualidade: "ruim",
+      },
+      {
+        nome: "Ovo de Tartaruga Quebrado",
+        imagem: "../image/addons/Hag/ovoTartarugaQuebrado.webp",
+        qualidade: "mediano",
+      },
+      {
+        nome: "Cigarra Seca",
+        imagem: "../image/addons/Hag/cigarraSeva.webp",
+        qualidade: "bom",
+      },
+      {
+        nome: "Colar de Orquídeas do Pântano",
+        imagem: "../image/addons/Hag/colarOrquideasPantano.webp",
+        qualidade: "bom",
+      },
+      { nome: "Grinalda de Salgueiro", imagem: "../image/addons/Hag/grinaldaSalgueiro.webp", qualidade: "muito-bom" },
+      {
+        nome: "Água Ensanguentada",
+        imagem: "../image/addons/Hag/aguaEnsanguentada.webp",
+        qualidade: "ruim",
+      },
+      {
+        nome: "Colar de Cipreste",
+        imagem: "../image/addons/Hag/colarCipreste.webp",
+        qualidade: "bom",
+      },
+      {
+        nome: "Asas de Libélula",
+        imagem: "../image/addons/Hag/asasLibelula.webp",
+        qualidade: "bom",
+      },
+      {
+        nome: "Casca de Ovo Pela Metade",
+        imagem: "../image/addons/Hag/cascaOvoMetade.webp",
+        qualidade: "mediano",
+      },
+      {
+        nome: "Salix Caprea",
+        imagem: "../image/addons/Hag/salixCaprea.webp",
+        qualidade: "bom",
+      },
+      {
+        nome: "Água do Pântano",
+        imagem: "../image/addons/Hag/aguaPantano.webp",
+        qualidade: "ruim",
+      },
+      {
+        nome: "Mosca Morta",
+        imagem: "../image/addons/Hag/moscaMorta.webp",
+        qualidade: "bom",
+      },
+      {
+        nome: "Casca de Ovo Cintilante",
+        imagem: "../image/addons/Hag/cascaOvoCintilante.webp",
+        qualidade: "mediano",
+      },
+      { nome: "Colar de Corda", imagem: "../image/addons/Hag/colarCorda.webp", qualidade: "mediano" },
+    ],
+  },
   // Adicione mais personagens aqui conforme necessário
 ];
 
