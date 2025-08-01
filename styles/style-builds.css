@@ -1,0 +1,15 @@
+:root {
+  --whiteColor: #ffffff;
+  --darkColor: #1a1919;
+  --redColor: #722323;
+  --darkRedColor: #362222;
+}
+
+body {
+  background-color: #1a1919;
+  min-height: 100vh;
+}
+
+.border-red-custom:hover {
+  border-color: var(--redColor) !important;
+}

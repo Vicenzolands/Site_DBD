@@ -1,5 +1,6 @@
 // script-addons.js
 const personagens = [
+  //Trapper
   {
     id: 1,
     nome: "Caçador",
@@ -64,6 +65,7 @@ const personagens = [
       { nome: "Óleo de urso", imagem: "../image/addons/Trapper/IconAddon_bearOil.webp", qualidade: "ruim" },
     ],
   },
+  //Wraith
   {
     id: 2,
     nome: "Espectro",
@@ -135,6 +137,7 @@ const personagens = [
       { nome: "'A Serpente' - Fuligem", imagem: "../image/addons/Wraith/serpenteFuligem.webp", qualidade: "ruim" },
     ],
   },
+  //HillBilly
   {
     id: 3,
     nome: "Caipira",
@@ -230,6 +233,7 @@ const personagens = [
       { nome: "Contra Peso", imagem: "../image/addons/TheHillbilly/contraPeso.webp", qualidade: "ruim" },
     ],
   },
+  //Nurse
   {
     id: 4,
     nome: "Enfermeira",
@@ -325,6 +329,7 @@ const personagens = [
       { nome: "Cavalo de Madeira", imagem: "../image/addons/Nurse/cavaloMadeira.webp", qualidade: "mediano" },
     ],
   },
+  //Myers
   {
     id: 5,
     nome: "Vulto",
@@ -420,6 +425,7 @@ const personagens = [
       { nome: "Brincos Cafonas", imagem: "../image/addons/Myers/brincosCafonas.webp", qualidade: "ruim" },
     ],
   },
+  //Hag
   {
     id: 6,
     nome: "Bruxa",
