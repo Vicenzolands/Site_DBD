@@ -14,3 +14,12 @@ body {
 .bg-dark-d {
   background-color: var(--darkColor);
 }
+
+#loop {
+  padding-top: 2rem;
+}
+
+.subtitulo {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
