@@ -521,6 +521,106 @@ const personagens = [
       { nome: "Colar de Corda", imagem: "../image/addons/Hag/colarCorda.webp", qualidade: "mediano" },
     ],
   },
+  //Doctor
+  {
+    id: 7,
+    nome: "Doctor",
+    imagem: "../image/killers/Doctor.webp",
+    itens: [
+      {
+        nome: "Rainha Iridescente",
+        imagem: "../image/addons/Doctor/rainha-iridecente.htm",
+        qualidade: "muito-bom",
+      },
+      { nome: "Rei Iridescente", imagem: "../image/addons/Doctor/rei-iridescente.htm", qualidade: "bom" },
+      {
+        nome: "'Restrições' - Anotações de Carter",
+        imagem: "../image/addons/Doctor/restricoes.htm",
+        qualidade: "bom",
+      },
+      {
+        nome: "'Ordem' - Anotações de Carter",
+        imagem: "../image/addons/Doctor/ordem.htm",
+        qualidade: "ruim",
+      },
+      {
+        nome: "'Disciplina' - Anotações de Carter",
+        imagem: "../image/addons/Doctor/disciplina.htm",
+        qualidade: "muito-bom",
+      },
+      {
+        nome: "'Calma' - Anotações de Carter",
+        imagem: "../image/addons/Doctor/calma.htm",
+        qualidade: "mediano",
+      },
+      {
+        nome: "Fita estragada",
+        imagem: "../image/addons/Doctor/fita-estragada.htm",
+        qualidade: "ruim",
+      },
+      {
+        nome: "Fita de entrevista",
+        imagem: "../image/addons/Doctor/fita-entrevista.htm",
+        qualidade: "mediano",
+      },
+      {
+        nome: "Eletrodo de estimulo elevado",
+        imagem: "../image/addons/Doctor/eletrodo-estimulo-elevado.htm",
+        qualidade: "bom",
+      },
+      {
+        nome: "'Restrições' - Classe 3",
+        imagem: "../image/addons/Doctor/restricoes-classe3.htm",
+        qualidade: "bom",
+      },
+      {
+        nome: "'Disciplina' - Classe 3",
+        imagem: "../image/addons/Doctor/disciplina-classe3.htm",
+        qualidade: "muito-bom",
+      },
+      {
+        nome: "Eletrodo Polido",
+        imagem: "../image/addons/Doctor/eletrodo-polido.htm",
+        qualidade: "bom",
+      },
+      {
+        nome: "'Restrições' - Classe 2",
+        imagem: "../image/addons/Doctor/restrecoes-classe2.htm",
+        qualidade: "mediano",
+      },
+      {
+        nome: "'Ordem' - Classe 2",
+        imagem: "../image/addons/Doctor/ordem-classe2.htm",
+        qualidade: "ruim",
+      },
+      {
+        nome: "'Disciplina' - Classe 2",
+        imagem: "../image/addons/Doctor/disciplina-classe2.htm",
+        qualidade: "bom",
+      },
+      {
+        nome: "'Calma' - Classe 2",
+        imagem: "../image/addons/Doctor/calma-classe2.htm",
+        qualidade: "mediano",
+      },
+      {
+        nome: "Eletrodo Mofado",
+        imagem: "../image/addons/Doctor/eletrodo-mofado.htm",
+        qualidade: "mediano",
+      },
+      {
+        nome: "Cavaleiro de Bordo",
+        imagem: "../image/addons/Doctor/cavaleiro-bordo.htm",
+        qualidade: "ruim",
+      },
+      {
+        nome: "'Ordem' - Classe 1",
+        imagem: "../image/addons/Doctor/ordem-classe1.htm",
+        qualidade: "ruim",
+      },
+      { nome: "'Calma' - Classe 1", imagem: "../image/addons/Doctor/calma-classe1.htm", qualidade: "mediano" },
+    ],
+  },
   // Adicione mais personagens aqui conforme necessário
 ];
 
