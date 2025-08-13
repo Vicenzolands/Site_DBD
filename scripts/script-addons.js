@@ -524,7 +524,7 @@ const personagens = [
   //Doctor
   {
     id: 7,
-    nome: "Doctor",
+    nome: "Doutor",
     imagem: "../image/killers/Doctor.webp",
     itens: [
       {
@@ -566,7 +566,7 @@ const personagens = [
       {
         nome: "Eletrodo de estimulo elevado",
         imagem: "../image/addons/Doctor/eletrodo-estimulo-elevado.htm",
-        qualidade: "bom",
+        qualidade: "muito-bom",
       },
       {
         nome: "'Restrições' - Classe 3",
@@ -619,6 +619,214 @@ const personagens = [
         qualidade: "ruim",
       },
       { nome: "'Calma' - Classe 1", imagem: "../image/addons/Doctor/calma-classe1.htm", qualidade: "mediano" },
+    ],
+  },
+  //Cannibal
+  {
+    id: 8,
+    nome: "Canibal",
+    imagem: "../image/killers/bubba.webp",
+    itens: [
+      {
+        nome: "Carne Iridescente",
+        imagem: "../image/addons/Bubba/carne-iridescente.webp",
+        qualidade: "bom",
+      },
+      {
+        nome: "Guia de aprimoramento de carburador",
+        imagem: "../image/addons/Bubba/guia-aprimoramento-carburador.webp",
+        qualidade: "ruim",
+      },
+      {
+        nome: "Corrente enferrujada",
+        imagem: "../image/addons/Bubba/corrente-enferrujada.webp",
+        qualidade: "mediano",
+      },
+      {
+        nome: "Chassi Leve",
+        imagem: "../image/addons/Bubba/chassi-leve.webp",
+        qualidade: "bom",
+      },
+      {
+        nome: "Ancinho de Profundidade",
+        imagem: "../image/addons/Bubba/ancinho-profundidade.webp",
+        qualidade: "bom",
+      },
+      {
+        nome: "Chili Premiado",
+        imagem: "../image/addons/Bubba/chili-premiado.webp",
+        qualidade: "mediano",
+      },
+      {
+        nome: "Graxa",
+        imagem: "../image/addons/Bubba/graxa.webp",
+        qualidade: "ruim",
+      },
+      {
+        nome: "Marcas de Besta",
+        imagem: "../image/addons/Bubba/marcas-besta.webp",
+        qualidade: "muito-bom",
+      },
+      {
+        nome: "Lumbrificante",
+        imagem: "../image/addons/Bubba/lumbrificante.webp",
+        qualidade: "ruim",
+      },
+      {
+        nome: "Corrente Terrivel",
+        imagem: "../image/addons/Bubba/corrente-terrivel.webp",
+        qualidade: "mediano",
+      },
+      {
+        nome: "Corrente Suja",
+        imagem: "../image/addons/Bubba/correntes-sujas.webp",
+        qualidade: "mediano",
+      },
+      {
+        nome: "Bomba de pressão",
+        imagem: "../image/addons/Bubba/bomba-pressão.webp",
+        qualidade: "muito-bom",
+      },
+      {
+        nome: "Barra de guia longa",
+        imagem: "../image/addons/Bubba/barra-guia-longa.webp",
+        qualidade: "ruim",
+      },
+      {
+        nome: "Marcas de faca",
+        imagem: "../image/addons/Bubba/marcas-faca.webp",
+        qualidade: "bom",
+      },
+      {
+        nome: "Silenciador caseiro",
+        imagem: "../image/addons/Bubba/silenciador-caseiro.webp",
+        qualidade: "ruim",
+      },
+      {
+        nome: "Chili",
+        imagem: "../image/addons/Bubba/chili.webp",
+        qualidade: "mediano",
+      },
+      {
+        nome: "Óleo Vegetal",
+        imagem: "../image/addons/Bubba/oleo-vegetal.webp",
+        qualidade: "mediano",
+      },
+      {
+        nome: "Limitador de Velocidade",
+        imagem: "../image/addons/Bubba/limitador-velocidade.webp",
+        qualidade: "ruim",
+      },
+      {
+        nome: "Vela de Ignição",
+        imagem: "../image/addons/Bubba/vela-ignicao.webp",
+        qualidade: "bom",
+      },
+      { nome: "Lixa de Motoserra", imagem: "../image/addons/Bubba/lixa-motoserra.webp", qualidade: "ruim" },
+    ],
+  },
+  //Huntress
+  {
+    id: 9,
+    nome: "Caçadora",
+    imagem: "../image/killers/huntress.webp",
+    itens: [
+      {
+        nome: "Grevas de soldado",
+        imagem: "../image/addons/Huntress/grevas-soldado.webp",
+        qualidade: "ruim",
+      },
+      {
+        nome: "Lamina Iridescente",
+        imagem: "../image/addons/Huntress/lamina-iridescente.webp",
+        qualidade: "muito-bom",
+      },
+      {
+        nome: "Raposa de Madeira",
+        imagem: "../image/addons/Huntress/raposa-madeira.webp",
+        qualidade: "bom",
+      },
+      {
+        nome: "Cinto de Infantaria",
+        imagem: "../image/addons/Huntress/cinto-infantaria.webp",
+        qualidade: "ruim",
+      },
+      {
+        nome: "Mistura Brilhante",
+        imagem: "../image/addons/Huntress/mistura-brilhante.webp",
+        qualidade: "muito-bom",
+      },
+      {
+        nome: "Lamina Contaminada",
+        imagem: "../image/addons/Huntress/lamina-contaminada.webp",
+        qualidade: "mediano",
+      },
+      {
+        nome: "Mistura Venenosa",
+        imagem: "../image/addons/Huntress/mistura-venenosa.webp",
+        qualidade: "bom",
+      },
+      {
+        nome: "Lamina Enferrujada",
+        imagem: "../image/addons/Huntress/lamina-enferujada.webp",
+        qualidade: "mediano",
+      },
+      {
+        nome: "Raiz de Rosa",
+        imagem: "../image/addons/Huntress/raiz-rosa.webp",
+        qualidade: "bom",
+      },
+      {
+        nome: "Lenço de Flores",
+        imagem: "../image/addons/Huntress/lenço-flores.webp",
+        qualidade: "muito-bom",
+      },
+      {
+        nome: "Luvas de Carmuça",
+        imagem: "../image/addons/Huntress/luvas-carmuça.webp",
+        qualidade: "ruim",
+      },
+      {
+        nome: "Lamina Pesada",
+        imagem: "../image/addons/Huntress/lamina-pesada.webp",
+        qualidade: "ruim",
+      },
+      {
+        nome: "Ferradura Brilhante",
+        imagem: "../image/addons/Huntress/ferradura-brilhante.webp",
+        qualidade: "bom",
+      },
+      {
+        nome: "Cabo de Carvalho",
+        imagem: "../image/addons/Huntress/cabo-carvalho.webp",
+        qualidade: "muito-bom",
+      },
+      {
+        nome: "Trança de grama da Maná",
+        imagem: "../image/addons/Huntress/trança-grama-maná.webp",
+        qualidade: "bom",
+      },
+      {
+        nome: "Laço de Couro",
+        imagem: "../image/addons/Huntress/laço-couro.webp",
+        qualidade: "ruim",
+      },
+      {
+        nome: "Lenço Amarelado",
+        imagem: "../image/addons/Huntress/pano-amarelado.webp",
+        qualidade: "ruim",
+      },
+      {
+        nome: "Pedra de amolar",
+        imagem: "../image/addons/Huntress/pedra-aspera.webp",
+        qualidade: "mediano",
+      },
+      {
+        nome: "Cabo Enfaixado",
+        imagem: "../image/addons/Huntress/cabo-enfaixado.webp",
+        qualidade: "bom",
+      },
+      { nome: "Toxina de Amanita", imagem: "../image/addons/Huntress/toxina-amanita.webp", qualidade: "mediano" },
     ],
   },
   // Adicione mais personagens aqui conforme necessário
