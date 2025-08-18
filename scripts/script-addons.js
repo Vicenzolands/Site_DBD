@@ -829,6 +829,214 @@ const personagens = [
       { nome: "Toxina de Amanita", imagem: "../image/addons/Huntress/toxina-amanita.webp", qualidade: "mediano" },
     ],
   },
+  //Freddy Krueger
+  {
+    id: 10,
+    nome: "Pesadelo",
+    imagem: "../image/killers/Freddy.webp",
+    itens: [
+      {
+        nome: "Pincel Vermelho",
+        imagem: "../image/addons/Freddy/pincel-vermelho.webp",
+        qualidade: "ruim",
+      },
+      {
+        nome: "Caixa Negra",
+        imagem: "../image/addons/Freddy/caixa-preta.webp",
+        qualidade: "bom",
+      },
+      {
+        nome: "Corrente de balanço",
+        imagem: "../image/addons/Freddy/corrente-balanço.webp",
+        qualidade: "bom",
+      },
+      {
+        nome: "Frasco de Comprimido",
+        imagem: "../image/addons/Freddy/frasco-comprimido.webp",
+        qualidade: "muito-bom",
+      },
+      {
+        nome: "Foto da turma",
+        imagem: "../image/addons/Freddy/foto-turma.webp",
+        qualidade: "bom",
+      },
+      {
+        nome: "Bloco Z",
+        imagem: "../image/addons/Freddy/bloco-Z.webp",
+        qualidade: "muito-bom",
+      },
+      {
+        nome: "Bloco de unicornio",
+        imagem: "../image/addons/Freddy/bloco-unicornio.webp",
+        qualidade: "mediano",
+      },
+      {
+        nome: "Diluidor de tinta",
+        imagem: "../image/addons/Freddy/diluidor-tinta.webp",
+        qualidade: "ruim",
+      },
+      {
+        nome: "Obra prima de Nancy",
+        imagem: "../image/addons/Freddy/obra-prima-nancy.webp",
+        qualidade: "mediano",
+      },
+      {
+        nome: "Corda de pular",
+        imagem: "../image/addons/Freddy/corda-pular.webp",
+        qualidade: "muito-bom",
+      },
+      {
+        nome: "Vestido Azul",
+        imagem: "../image/addons/Freddy/vestido-azul.webp",
+        qualidade: "ruim",
+      },
+      {
+        nome: "Prototipo de garras",
+        imagem: "../image/addons/Freddy/prototio-garras.webp",
+        qualidade: "bom",
+      },
+      {
+        nome: "Cordas Resistentes",
+        imagem: "../image/addons/Freddy/cordas-resistentes.webp",
+        qualidade: "bom",
+      },
+      {
+        nome: "Rascunho da Nancy",
+        imagem: "../image/addons/Freddy/rascunho-nancy.webp",
+        qualidade: "bom",
+      },
+      {
+        nome: "Vestido Verde",
+        imagem: "../image/addons/Freddy/vestido-verde.webp",
+        qualidade: "mediano",
+      },
+      {
+        nome: "Bloco de Gato",
+        imagem: "../image/addons/Freddy/bloco-gato.webp",
+        qualidade: "mediano",
+      },
+      {
+        nome: "Camisa de lã",
+        imagem: "../image/addons/Freddy/camisa-lã.webp",
+        qualidade: "mediano",
+      },
+      {
+        nome: "Bloco de Ovelha",
+        imagem: "../image/addons/Freddy/bloco-ovelhas.webp",
+        qualidade: "ruim",
+      },
+      {
+        nome: "Desenho de Criança",
+        imagem: "../image/addons/Freddy/desenho-criança.webp",
+        qualidade: "ruim",
+      },
+      { nome: "Ancinho de Jardim", imagem: "../image/addons/Freddy/ancinho-jardim.webp", qualidade: "bom" },
+    ],
+  },
+  //Pig
+  {
+    id: 11,
+    nome: "Pig",
+    imagem: "../image/killers/pig.webp",
+    itens: [
+      {
+        nome: "Grevas de soldado",
+        imagem: "../image/addons/Huntress/grevas-soldado.webp",
+        qualidade: "ruim",
+      },
+      {
+        nome: "Lamina Iridescente",
+        imagem: "../image/addons/Huntress/lamina-iridescente.webp",
+        qualidade: "muito-bom",
+      },
+      {
+        nome: "Raposa de Madeira",
+        imagem: "../image/addons/Huntress/raposa-madeira.webp",
+        qualidade: "bom",
+      },
+      {
+        nome: "Cinto de Infantaria",
+        imagem: "../image/addons/Huntress/cinto-infantaria.webp",
+        qualidade: "ruim",
+      },
+      {
+        nome: "Mistura Brilhante",
+        imagem: "../image/addons/Huntress/mistura-brilhante.webp",
+        qualidade: "muito-bom",
+      },
+      {
+        nome: "Lamina Contaminada",
+        imagem: "../image/addons/Huntress/lamina-contaminada.webp",
+        qualidade: "mediano",
+      },
+      {
+        nome: "Mistura Venenosa",
+        imagem: "../image/addons/Huntress/mistura-venenosa.webp",
+        qualidade: "bom",
+      },
+      {
+        nome: "Lamina Enferrujada",
+        imagem: "../image/addons/Huntress/lamina-enferujada.webp",
+        qualidade: "mediano",
+      },
+      {
+        nome: "Raiz de Rosa",
+        imagem: "../image/addons/Huntress/raiz-rosa.webp",
+        qualidade: "bom",
+      },
+      {
+        nome: "Lenço de Flores",
+        imagem: "../image/addons/Huntress/lenço-flores.webp",
+        qualidade: "muito-bom",
+      },
+      {
+        nome: "Luvas de Carmuça",
+        imagem: "../image/addons/Huntress/luvas-carmuça.webp",
+        qualidade: "ruim",
+      },
+      {
+        nome: "Lamina Pesada",
+        imagem: "../image/addons/Huntress/lamina-pesada.webp",
+        qualidade: "ruim",
+      },
+      {
+        nome: "Ferradura Brilhante",
+        imagem: "../image/addons/Huntress/ferradura-brilhante.webp",
+        qualidade: "bom",
+      },
+      {
+        nome: "Cabo de Carvalho",
+        imagem: "../image/addons/Huntress/cabo-carvalho.webp",
+        qualidade: "muito-bom",
+      },
+      {
+        nome: "Trança de grama da Maná",
+        imagem: "../image/addons/Huntress/trança-grama-maná.webp",
+        qualidade: "bom",
+      },
+      {
+        nome: "Laço de Couro",
+        imagem: "../image/addons/Huntress/laço-couro.webp",
+        qualidade: "ruim",
+      },
+      {
+        nome: "Lenço Amarelado",
+        imagem: "../image/addons/Huntress/pano-amarelado.webp",
+        qualidade: "ruim",
+      },
+      {
+        nome: "Pedra de amolar",
+        imagem: "../image/addons/Huntress/pedra-aspera.webp",
+        qualidade: "mediano",
+      },
+      {
+        nome: "Cabo Enfaixado",
+        imagem: "../image/addons/Huntress/cabo-enfaixado.webp",
+        qualidade: "bom",
+      },
+      { nome: "Toxina de Amanita", imagem: "../image/addons/Huntress/toxina-amanita.webp", qualidade: "mediano" },
+    ],
+  },
   // Adicione mais personagens aqui conforme necessário
 ];
 
